@@ -42,14 +42,14 @@ I spent around 19 total hours to testing Glide over the quarter, creating differ
 - **Why It Failed**: The primary reason I couldn't do it was because of the Free plan limitations. Free plan strictly restricts data sources to Glide Tables, blocking all attempts to connect or continuously sync with external spreadsheets like Google Sheets, Excel, or Airtable. This forces the entire 100+ row dataset to be manually imported or typed in row-by-row. Which was way too time consuming.
 - **Screenshots**: ![Failure 1](https://imgur.com/zl3F87k.jpg)
 ![Failure 1.1](https://imgur.com/iobX7ia.jpg)
-> **Comment** Connecting with external services require a paid option. Even most commonly used sources such as Google Sheets. This reduces the ability for me to test larger datasets and truly understand the quality of this service.
+> **Comment**: Connecting with external services require a paid option. Even most commonly used sources such as Google Sheets. This reduces the ability for me to test larger datasets and truly understand the quality of this service.
 - **Lesson Learned**: The platform's most valuable feature —live spreadsheet sync— is locked behind a paywall which is kind of ridiculous. The Free plan is fundamentally inefficient for testing scenarios, professional scenarios, teaching a painful lesson that core data operations require an immediate subscription, or you waste time on manual data entry. This lesson can most likely be applied to other AI tools as well.
 
 ### Failure 2:
 - **What I Tried**: I attempted to build a UI using the prompt "model display where the input table contained a calculated Q3 2025 Revenue based on trends."
 - **Why It Failed**: Glide doesn't just "fail" by inventing up columns and data points, but it also makes it easy to present unverified calculations or inputs as a polished app. If the underlying column logic was flawed, the Glide app would confidently display the error with a professional UI, giving it false authority. In this case, it misunderstood what I meant by "model display" and end up presenting a list of cars with their revenues that were not part of the sample data.
 - **Screenshots**: ![Failure 2](https://imgur.com/TFbmTEv.jpg)
-> **Comment** I didn't even realize the error at first because I was just amazed at how quickly the UI was being built and also how detailed it was. But after a quick look I realized not only were there pictures of cars, but also numbers in the Q1 Revenue columm that were not part of the sample data.
+> **Comment**: I didn't even realize the error at first because I was just amazed at how quickly the UI was being built and also how detailed it was. But after a quick look I realized not only were there pictures of cars, but also numbers in the Q1 Revenue columm that were not part of the sample data.
 - **Lesson Learned**: Glide masks a lot of complexity. Never trust any AI-generated or no-code applications that display financial or mission-critical data without cell-by-cell verification of the underlying source. Also you have to be super clear about certain wordings to prevent misinterpations that could result in critical errors (good thing this time the mistake was pretty notable with all the car pictures).
 
 ## Skill Code Analysis
@@ -73,23 +73,23 @@ Glide enhances collaboration by creating a common language between technical and
 ## Evidence Gallery
 
 ![Evidence1](https://imgur.com/a9XLoTG.jpg)
-> **Comment** Research Brief Directory with sample briefs across industries like Technology, Healthcare, Finance, and Retail.
+> **Comment**: Research Brief Directory with sample briefs across industries like Technology, Healthcare, Finance, and Retail.
 
 
 ![Evidence2](https://imgur.com/nnpR26s.jpg)
-> **Comment** Adding a "create new brief functionality" which a simple prompt.
+> **Comment**: Adding a "create new brief functionality" which a simple prompt.
 
 
 ![Evidence3](https://imgur.com/0s7nsDs.jpg)
-> **Comment** You can directly edit the front end while accessing many of its functionalities at the same time. Also, buttons such as "open document" and "share" actually works, and can still be modified real time through drag and drop actions rather than code modifications.
+> **Comment**: You can directly edit the front end while accessing many of its functionalities at the same time. Also, buttons such as "open document" and "share" actually works, and can still be modified real time through drag and drop actions rather than code modifications.
 
 
 ![Evidence4](https://imgur.com/j4jRIwf.jpg)
-> **Comment** Unfortunatly other than very basic app functionality, everything else is pay walled. Integrating things like AI email summarizer, email extractor, etc. all require the basic paid plan.
+> **Comment**: Unfortunatly other than very basic app functionality, everything else is pay walled. Integrating things like AI email summarizer, email extractor, etc. all require the basic paid plan.
 
 
 ![Evidence5](https://imgur.com/0RTrlyT.jpg)
-> **Comment** Althought I didn't take the opportunity to test it yet, it seems that Glide directly integrates safety and accessibilty functions directly into a click of a button. That means that either the app will always run through Glide or it integrates some sort of back-end code with just flicks of a switch. 
+> **Comment**: Althought I didn't take the opportunity to test it yet, it seems that Glide directly integrates safety and accessibilty functions directly into a click of a button. That means that either the app will always run through Glide or it integrates some sort of back-end code with just flicks of a switch. 
 
 ## References
 
