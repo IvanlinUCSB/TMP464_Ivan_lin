@@ -74,12 +74,16 @@ Glide enhances collaboration by creating a common language between technical and
 
 ![Evidence1](https://imgur.com/a9XLoTG.jpg)
 > **Comment** Research Brief Directory with sample briefs across industries like Technology, Healthcare, Finance, and Retail.
+
 ![Evidence2](https://imgur.com/nnpR26s.jpg)
 > **Comment** Adding a "create new brief functionality" which a simple prompt.
+
 ![Evidence3](https://imgur.com/0s7nsDs.jpg)
 > **Comment** You can directly edit the front end while accessing many of its functionalities at the same time. Also, buttons such as "open document" and "share" actually works, and can still be modified real time through drag and drop actions rather than code modifications.
+
 ![Evidence4](https://imgur.com/j4jRIwf.jpg)
-> **Comment** Unfortunatly other than very basic app functionality, everything else is pay walled. Integrating things like AI email summarizer, email extractor, etc. all require the basic paid plan. 
+> **Comment** Unfortunatly other than very basic app functionality, everything else is pay walled. Integrating things like AI email summarizer, email extractor, etc. all require the basic paid plan.
+
 ![Evidence5](https://imgur.com/0RTrlyT.jpg)
 > **Comment** Althought I didn't take the opportunity to test it yet, it seems that Glide directly integrates safety and accessibilty functions directly into a click of a button. That means that either the app will always run through Glide or it integrates some sort of back-end code with just flicks of a switch. 
 
