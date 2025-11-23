@@ -48,7 +48,7 @@ I spent around 19 total hours to testing Glide over the quarter, creating differ
 ### Failure 2:
 - **What I Tried**: I attempted to build a UI using the prompt "model display where the input table contained a calculated Q3 2025 Revenue based on trends."
 - **Why It Failed**: Glide doesn't just "fail" by inventing up columns and data points, but it also makes it easy to present unverified calculations or inputs as a polished app. If the underlying column logic was flawed, the Glide app would confidently display the error with a professional UI, giving it false authority. In this case, it misunderstood what I meant by "model display" and end up presenting a list of cars with their revenues that were not part of the sample data.
-- **Screenshots**: ![Failure 2](https://drive.google.com/file/d/1dMNgtlChLAs4Z3Scu2GFrAk-bzlPBT2V/view?usp=share_link)
+- **Screenshots**: ![Failure 2](https://imgur.com/TFbmTEv.jpg)
 > **Comment** I didn't even realize the error at first because I was just amazed at how quickly the UI was being built and also how detailed it was. But after a quick look I realized not only were there pictures of cars, but also numbers in the Q1 Revenue columm that were not part of the sample data.
 - **Lesson Learned**: Glide masks a lot of complexity. Never trust any AI-generated or no-code applications that display financial or mission-critical data without cell-by-cell verification of the underlying source. Also you have to be super clear about certain wordings to prevent misinterpations that could result in critical errors (good thing this time the mistake was pretty notable with all the car pictures).
 
@@ -88,3 +88,4 @@ Glide enhances collaboration by creating a common language between technical and
 - **Documentation(s)** https://www.glideapps.com/docs/quick-start
 - **Tutorial(s)** https://www.youtube.com/watch?v=AlVwDNrtKZI&start=0, https://www.youtube.com/watch?v=PkiEUs3c280
 - **Comparables** Softr, Adalo, Bubble, and AppSheet
+
